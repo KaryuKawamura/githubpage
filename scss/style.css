@@ -118,7 +118,7 @@ nav a#openup {
 body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
-  background: url(../img/texturedbg3.jpg);
+  background: url(../img/tatbg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -146,6 +146,10 @@ p {
   padding: 1em 0;
 }
 
+.quote {
+  padding-top: 2em;
+}
+
 span {
   font-style: italic;
   font-size: 0.8em;
@@ -156,24 +160,26 @@ span {
   background-attachment: #333;
   color: #fff;
   text-decoration: none;
-  padding: 1em 2em;
+  padding: .5em .5em;
   border: 1px solid #666;
   margin: 0.5em 0;
+  border-radius: 20px;
 }
 
 .btn:hover {
-  background: #eaeaea;
+  background: #bf0006;
   color: #333;
 }
 
 .btn-li {
   display: inline-block;
-  background: #777;
+  background: #999;
   color: #111111;
   text-decoration: none;
   padding: .3em .3em;
   border: 1px solid #eaeaea;
   margin-bottom: 1em;
+  border-radius: 10px;
 }
 
 .btn-li:hover {
@@ -221,7 +227,12 @@ span {
 }
 
 #section-a .content-wrap {
-  height: 100vh;
+  height: 85vh;
+}
+
+.hide-on-small {
+  opacity: .8;
+  border-radius: 40px;
 }
 
 
@@ -239,12 +250,20 @@ span {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #444;
+  background: #666;
   color: #eaeaea;
+}
+
+.card img {
+  border-radius: 20px;
 }
 
 .card-conetent {
   padding: 1.5em;
+}
+
+.card-border {
+  border-radius: 20px;
 }
 
 /* Section C */
@@ -253,6 +272,7 @@ span {
   margin: auto;
   border: #333 solid 3px;
   background: #333;
+  border-radius: 10px;
 }
 
 .main-img img,
@@ -265,6 +285,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
+  border-radius: 20px;
 }
 
 
