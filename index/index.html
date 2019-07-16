@@ -6,113 +6,153 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>K|Designs</title>
     <link rel="stylesheet" href="../scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
   </head>
   <body>
-    <div class="content-wrap">
-      <nav class="cf">
-        <ul class="cf">
-          <li class="nav-bar">
-            <a href="#">Item 0</a>
-          </li>
-          <li class="nav-bar">
-            <a href="#">Item 0</a>
-          </li>
-          <li class="nav-bar">
-            <a href="#">Item 1</a>
-          </li>
-          <li class="nav-bar">
-            <a href="#">Item 2</a>
-          </li>
-          <li class="nav-bar">
-            <a href="#">Item 3</a>
-          </li>
-        </ul>
-        <a href="#" id="openup">MENU</a>
-      </nav>
-    </div>
+    <nav class="cf nav-grid animated fadeInDown slower delay-2s">
+      <ul class="cf">
+        <li class="nav-bar">
+          <a class="hide-on-small scroll" href="#showcase">K|Design</a>
+        </li>
+        <li class="nav-bar">
+          <a class="scroll" href="#section-a">Overview</a>
+        </li>
+        <li class="nav-bar">
+          <a class="scroll" href="#section-b">About Me</a>
+        </li>
+        <li class="nav-bar">
+          <a class="scroll" href="#section-c">My Cat</a>
+        </li>
+        <li class="nav-bar">
+          <a class="scroll" href="#section-d">Other Works</a>
+        </li>
+      </ul>
+      <a href="#" id="openup">K|Design</a>
+    </nav>
     <!--header showcase-->
-    <header id="showcase" class="grid">
+    <header id="showcase" class="grid scroll">
       <div class="bg-image"></div>
       <div class="content-wrap">
-        <h1>Designing the future of the web</h1>
-        <p></p>
-        <a href="#section-b" class="btn">Read More</a>
+        <h1 class="animated fadeInDown slower">
+          Designing The Future of Your Web
+        </h1>
+        <p class="animated fadeInDown slower delay-1s">
+          "Have no fear of perfection - you'll never reach it." <br /><span
+            >- Salvador Dali</span
+          >
+        </p>
+        <a
+          href="#section-a"
+          class="animated fadeInUp slower delay-2s btn scroll"
+          >Read More</a
+        >
       </div>
     </header>
     <!--Main Section-->
     <main id="id">
       <!--Section A-->
-      <section id="section-a" class="grid">
+      <section id="section-a" class="grid scroll">
         <div class="content-wrap">
-          <h2 class="content-title">Web Development</h2>
+          <h2 class="content-title wow animated fadeInDown slow">
+            Why Web Development?
+          </h2>
           <div class="content-text">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et
-              aut, voluptatum laboriosam deserunt animi dolor itaque quaerat,
-              cum id illum rerum. Quaerat esse nam nihil voluptatem incidunt
-              optio sit non consequuntur totam repellat, praesentium minima ipsa
-              ab quisquam voluptatibus.
+            <p class="wow animated fadeInLeft slow delay-1s">
+              Web developers build things on the web that are a little bit more
+              complicated than your simple template-based blog. Web developers
+              have high level coding skills. These allow them to build websites
+              or web based apps that are animated, input and output data,
+              contain areas that store information, or interact with other
+              websites and apps, such as social media or payment processing
+              tools. It’s important to realise that web developers are different
+              to web designers, who focus on the layout, look and feel, and the
+              way people use a site.
             </p>
+            <img
+              class="wow animated fadeInRight slow delay-2s"
+              src="../img/computermockup.jpeg"
+              alt=""
+            />
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur,
+            voluptates nostrum voluptatem dolor blanditiis modi, deserunt nobis
+            maiores explicabo eligendi adipisci unde, iure odit deleniti!
+            Quisquam minus nobis provident dignissimos nisi, veniam eos minima,
+            iste eligendi officia, repellendus libero.
+          </p>
         </div>
       </section>
       <!--section B-->
-      <section id="section-b" class="grid">
+      <section id="section-b" class="grid scroll">
         <ul>
-          <li>
+          <li class="wow animated fadeInLeft slow">
             <div class="card">
-              <img src="../img/bg2.jpg" alt="" />
+              <img src="../img/background.jpg" alt="" />
               <div class="card-content">
-                <h3 class="card-title">Web Dev</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores nisi eius architecto maiores officiis doloremque,
-                  quam tenetur, optio necessitatibus, labore quaerat iusto quas
-                  corporis consectetur dignissimos accusamus? Nihil, amet sint?
-                </p>
+                <h3 class="card-title">Web Development</h3>
+                <a
+                  href="#section-a"
+                  class="btn-li wow animated fadeInUp slower delay-2s scroll"
+                  >Read More</a
+                >
               </div>
             </div>
           </li>
-          <li>
+          <li class="wow animated fadeInUp slow">
             <div class="card">
               <img src="../img/nia4.jpeg" alt="" />
               <div class="card-content">
                 <h3 class="card-title">About Me</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores nisi eius architecto maiores officiis doloremque,
-                  quam tenetur, optio necessitatibus, labore quaerat iusto quas
-                  corporis consectetur dignissimos accusamus? Nihil, amet sint?
-                </p>
+                <a
+                  href="#section-a"
+                  class="btn-li wow animated fadeInUp slower delay-2s scroll"
+                  >Read More</a
+                >
               </div>
             </div>
           </li>
-          <li>
+          <li class="wow animated fadeInRight slow">
             <div class="card">
               <img src="../img/gamer2.jpg" alt="" />
               <div class="card-content">
                 <h3 class="card-title">Some Hobbies</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores nisi eius architecto maiores officiis doloremque,
-                  quam tenetur, optio necessitatibus, labore quaerat iusto quas
-                  corporis consectetur dignissimos accusamus? Nihil, amet sint?
-                </p>
+                <a
+                  href="#section-a"
+                  class="btn-li wow animated fadeInUp slower delay-2s scroll"
+                  >Read More</a
+                >
               </div>
             </div>
           </li>
         </ul>
       </section>
       <!--Section C-->
-      <section id="section-c" class="grid">
+      <section id="section-c" class="grid scroll">
+        <div class="albumbg"></div>
         <div class="content-wrap">
-          <h2 class="content-title">Come Check out my cat!</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste
-            possimus distinctio, corrupti laudantium voluptatem. Quasi, ducimus
-            velit? Neque voluptas sequi facilis quod nostrum veritatis nisi
-            fugiat dolorem? Dolorum, cumque.
-          </p>
+          <h2 class="content-title animated infinite rubberBand slow">
+            Cat Pics!
+          </h2>
+          <div class="album">
+            <div class="main-img">
+              <img src="../img/nia.jpeg" id="current" />
+            </div>
+            <div class="imgs">
+              <img src="../img/nia.jpeg" />
+              <img src="../img/nia1.jpeg" />
+              <img src="../img/nia2.jpeg" />
+              <img src="../img/nia3.jpeg" />
+              <img src="../img/nia4.jpeg" />
+              <img src="../img/nia5.jpeg" />
+              <img src="../img/nia6.jpeg" />
+              <img src="../img/nia7.jpeg" />
+            </div>
+          </div>
+          <script src="nekz.js"></script>
         </div>
       </section>
       <!--Section D-->
@@ -120,29 +160,36 @@
         <div class="box">
           <h2 class="content-title">Contact Me</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-            maiores quas dolorem, blanditiis non laudantium ut consequatur illum
-            nulla, sed officia animi asperiores laboriosam harum deserunt fugiat
-            provident, sit nobis!
+            If you'd like to inquire or talk about some of my works, or just
+            want to get to know me, here's my contact!
           </p>
           <p>kawamuradesign@kd.hk</p>
         </div>
         <div class="box">
           <h2 class="content-title">My other Works!</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            quam, quo, magni dolor delectus laborum possimus fugiat itaque
-            deleniti ut maiores fuga aliquam beatae ipsa similique sapiente
-            saepe hic? Magni.
+            It's important to keep track of all the work you did up until this
+            moment. Come check out some of mine!
           </p>
+          <a href="#" class="btn scroll">Check it out!</a>
         </div>
       </section>
     </main>
     <!--Footer-->
     <footer id="main-footer" class="grid">
       <div>Kawamura Designs</div>
-      <div>Project By <a href="#" target="_blank"></a>KawamuraDesigns</div>
+      <div>Project By <a href="#" target="_blank"></a>Kawamura|Designs</div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="../Javascript/main.js"></script>
   </body>
 </html>
