@@ -69,3 +69,4 @@ function imgclick(e) {
   setTimeout(() => current.classList.remove("fade-in"), 500);
   e.target.style.opacity = opacity;
 }
+$(document).singlePageNav({ filter: ":not(.external)" });

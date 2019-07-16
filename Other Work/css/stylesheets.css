@@ -1,0 +1,24 @@
+.my-primary{
+  color: lightYellow ;
+  background-color: red;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+  margin: 0;
+}
+
+.quotes {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.showcase {
+  background-image: url(/HTML/img/bg2.jpg);
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10%;
+
+}
+

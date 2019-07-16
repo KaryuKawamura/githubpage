@@ -117,7 +117,7 @@ nav a#openup {
 
 body {
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background: url(../img/tatbg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,8 +130,10 @@ body {
 
 .card img {
   display: block;
-  height: 285px;
+  height: 375px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1,
@@ -221,17 +223,22 @@ span {
 
 /*Section A*/
 #section-a {
-  background: url(../img/texturedbg.jpg);
-  color: #333;
+  background: url(../img/bg2wide.jpg);
+  color: #eaeaea;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   padding-bottom: 2em;
+  height: 90vh;
 }
 
 #section-a .content-wrap {
-  height: 85vh;
+  height: 80vh;
 }
 
 .hide-on-small {
-  opacity: .8;
   border-radius: 40px;
 }
 
@@ -239,7 +246,8 @@ span {
 /*Section B*/
 
 #section-b {
-  padding: 3em 1em 1em;
+  padding: 3em;
+  margin-bottom: 1em;
 }
 
 #section-b ul {
@@ -250,8 +258,9 @@ span {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #666;
+  background: #333333;
   color: #eaeaea;
+  opacity: .9;
 }
 
 .card img {

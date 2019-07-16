@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #252520;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: thick;
+  font-size: 20px;
+
+}
+
+h4 {
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  background: orange;
+  border: 0;
+  padding: 0 20px 0 20px;
+  color: black;
+}
+
+/*header*/
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  min-height: 70px;
+  border-bottom: orange 3px solid;
+  padding-bottom: 0px;
+}
+
+header a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+
+header li {
+  display: inline;
+  padding: 0 2px 0 20px;
+}
+
+header #branding {
+  float: left;
+
+}
+
+header #branding h1 {
+  margin: 0
+}
+
+header nav {
+  float: right;
+  margin-top: 10px
+}
+
+header .highlight,
+header .current a {
+  color: orange;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+
+}
+
+/* showcase */
+
+#showcase {
+  min-height: 200px;
+  background: url('../../img/bg.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: white;
+  border-bottom: orange 3px solid;
+}
+
+#showcase h1 {
+  margin-top: 35px;
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/*newsletter*/
+
+#newsletter {
+  color: #ffffff;
+  background: black;
+  border-top: orange 3px solid;
+}
+
+#newsletter h1 {
+  float: left;
+
+}
+
+#newsletter form {
+  float: right;
+  margin: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+
+/*boxes*/
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+
+}
+
+#boxes .box img {
+  width: 90px;
+  height: 90px;
+
+}
+
+
+footer {
+  padding: 20px;
+  color: white;
+  background: url('../../img/bg.jpg') no-repeat 0 -400px;
+  text-align: center;
+  border-top: orange 3px solid;
+
+}
+
+.album {
+  max-width: 550px;
+  margin: auto;
+  border: white solid 3px;
+  background: white;
+}
+
+.main-img img,
+.imgs,
+img {
+  width: 100%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+/*fade in*/
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards;
+}
