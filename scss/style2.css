@@ -136,8 +136,6 @@ body {
   margin-right: auto;
 }
 
-
-
 h1,
 h2 {
   margin: 0;
@@ -147,21 +145,6 @@ h2 {
 p {
   margin: 0 1em;
   padding: 1em 0;
-}
-
-.quote {
-  padding-top: 2em;
-}
-
-span {
-  font-style: italic;
-  font-size: 0.8em;
-}
-
-
-.btn:hover {
-  background: #bf0006;
-  color: #333;
 }
 
 .btn-li {
@@ -212,32 +195,10 @@ span {
   padding: 0 1.5em;
 }
 
-/*Section A*/
-#section-a {
-  background: url(../img/bg2wide.jpg);
-  color: #eaeaea;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  padding-bottom: 2em;
-}
-
-#section-a .content-wrap {
-  height: 80vh;
-}
-
-.hide-on-small {
-  border-radius: 40px;
-}
-
-
 /*Section B*/
 
 #section-b {
   padding: 3em;
-  height: 80vh;
 }
 
 #section-b ul {
@@ -250,7 +211,7 @@ span {
   margin: .5em .5em;
   background: #333333;
   color: #eaeaea;
-  height: 250px;
+  height: fit-content;
 
 }
 
@@ -272,60 +233,6 @@ span {
 .card-border {
   border-radius: 20px;
 }
-
-/* Section C */
-.album {
-  max-width: 550px;
-  margin: auto;
-  border: #333 solid 3px;
-  background: #333;
-  border-radius: 10px;
-}
-
-.main-img img,
-.imgs,
-img {
-  width: 100%;
-}
-
-.imgs {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
-  border-radius: 20px;
-}
-
-
-
-/*fade in*/
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 0.5s ease-in 1 forwards;
-}
-
-#section-c {
-  background: url(../img/albumbg3.jpg);
-  color: #fff;
-  padding: 2em;
-}
-
-#section-d {
-  padding: 2m;
-  color: #fff;
-}
-
-#section-d .box:first-child {
-  background: #222;
-}
-
-/* footer */
 
 #main-footer {
   padding: 0.5em;
